@@ -1,0 +1,30 @@
+<div class="container mt-4">
+
+
+    <h2 class="text-center"> Create article  </h2>
+
+    <div class="col-6 mx-auto">
+
+     
+
+        <input [(ngModel)]="article.title" type="text" class="form-control m-1" placeholder="title">
+        <ul>
+            <li *ngFor="let item of article.tags" > {{item}} </li>
+        </ul>
+        <div class="row m-1" >
+            <!-- <input [(ngModel)]="tag" type="text" class="form-control w-75" placeholder="tag">  -->
+            <textarea [(ngModel)]="tag" type="text" class="form-control w-75" placeholder="tag" ></textarea>
+            <button class="btn btn-dark w-25" (click)="article.tags.push(tag); tag=''"  >Add</button>
+    
+        </div>
+     
+        <input type="file" (change)="select($event)"  class="form-control m-1" placeholder="image">
+
+
+
+        <button (click)="create()" class="btn btn-dark form-control m-1">create</button>
+
+
+    </div>
+
+</div>

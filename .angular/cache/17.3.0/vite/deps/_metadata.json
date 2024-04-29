@@ -1,0 +1,67 @@
+{
+  "hash": "1095401e",
+  "configHash": "966d8213",
+  "lockfileHash": "3d0989a0",
+  "browserHash": "8a5972e5",
+  "optimized": {
+    "@angular/common": {
+      "src": "../../../../../node_modules/@angular/common/fesm2022/common.mjs",
+      "file": "@angular_common.js",
+      "fileHash": "f1f6d4dc",
+      "needsInterop": false
+    },
+    "@angular/common/http": {
+      "src": "../../../../../node_modules/@angular/common/fesm2022/http.mjs",
+      "file": "@angular_common_http.js",
+      "fileHash": "dbb82cca",
+      "needsInterop": false
+    },
+    "@angular/core": {
+      "src": "../../../../../node_modules/@angular/core/fesm2022/core.mjs",
+      "file": "@angular_core.js",
+      "fileHash": "25122d56",
+      "needsInterop": false
+    },
+    "@angular/forms": {
+      "src": "../../../../../node_modules/@angular/forms/fesm2022/forms.mjs",
+      "file": "@angular_forms.js",
+      "fileHash": "4b71fab8",
+      "needsInterop": false
+    },
+    "@angular/platform-browser": {
+      "src": "../../../../../node_modules/@angular/platform-browser/fesm2022/platform-browser.mjs",
+      "file": "@angular_platform-browser.js",
+      "fileHash": "7aefe81c",
+      "needsInterop": false
+    },
+    "@angular/router": {
+      "src": "../../../../../node_modules/@angular/router/fesm2022/router.mjs",
+      "file": "@angular_router.js",
+      "fileHash": "c95fb7ca",
+      "needsInterop": false
+    },
+    "@kolkov/angular-editor": {
+      "src": "../../../../../node_modules/@kolkov/angular-editor/fesm2020/kolkov-angular-editor.mjs",
+      "file": "@kolkov_angular-editor.js",
+      "fileHash": "39109427",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-COMYW5AJ": {
+      "file": "chunk-COMYW5AJ.js"
+    },
+    "chunk-NHI2CHZ5": {
+      "file": "chunk-NHI2CHZ5.js"
+    },
+    "chunk-JJUVBE4Y": {
+      "file": "chunk-JJUVBE4Y.js"
+    },
+    "chunk-GQA3GX45": {
+      "file": "chunk-GQA3GX45.js"
+    },
+    "chunk-QPEF36NU": {
+      "file": "chunk-QPEF36NU.js"
+    }
+  }
+}
